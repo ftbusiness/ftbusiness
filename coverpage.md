@@ -1,7 +1,7 @@
 ![](/res/FT-logo.png)
 
-# Fiori Tracker - Business
+# Fiori Tracker Business
 
-Commercial add-ons for Fiori Tracker
+Paid add-ons for Fiori Tracker
 
 [Get Started](#main)
