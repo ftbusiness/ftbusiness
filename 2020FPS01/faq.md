@@ -1,16 +1,8 @@
-# Fiori Tracker - Frequently Asked Questions
+# Fiori Tracker Business- Frequently Asked Questions
 
-### 1. Is it really free?
+### 1. Is the Premier support for Fiori Tracker Core mandatory after certain time period?
 
-Yes it is. We get enough value from exposure.
-
-### 2. Does is send any data (statistics) to outside servers (what is the security model)?
-
-No data is send to any outside servers. Fiori Tracker does not need external access and is run by many users on installations that do not have external access.  All code is in ABAP meaning it is fully transparent and available for inspection.
-
-### 3. Is the Premier support mandatory after certain time period?
-
-No, Premier support is optional and you can continue using Fiori Tracker as it is, free of charge as long as you want.
+No, Premier support is optional and you can continue using Fiori Tracker Core as it is, free of charge as long as you want. There are optional product that you can add to Fiori Tracker Core that are offered based on paid plans. All paid products are listed on http://help.fioritracker.app.
 
 
 
