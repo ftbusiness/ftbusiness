@@ -1,16 +1,22 @@
-### Hi there 👋
+# fiori-tracker-manual
 
-<!--
-**ftbusiness/ftbusiness** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Standalone manual for Fiori Tracker
 
-Here are some ideas to get you started:
+Run `npm install docsify-cli -g` to install docsify.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Run `docsify serve` in root repository dir to launch local npm server with the manual.
+
+# Rules
+
+1. Screenshots resolution 1600x900
+- especially Fiori launchpad screens
+
+2. All 
+- identifiers
+- sap gui transactions
+- paths 
+marked with: `code`
+
+2. Instead of number of screenshots for sequence of steps, use a gif animations
+
+3. All links relative
