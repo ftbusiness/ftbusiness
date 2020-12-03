@@ -1,6 +1,6 @@
 # Options for running Fiori Tracker products on targeted UI5 library
 
-Products from Fiori Tracker family require access to SAP UI5 library. The application was build and tested for SAP UI5 1.52 so it works best with this specific version although it should also work with higher versions.
+Products from Fiori Tracker suite require access to SAP UI5 library. The application was build and tested for SAP UI5 1.52 so it works best with this specific version although it should also work with higher versions.
 
 On systems with Fiori Launchpad configured the default available library will be used.
 
