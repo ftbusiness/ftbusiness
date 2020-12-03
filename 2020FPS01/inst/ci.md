@@ -7,6 +7,6 @@ General Basis expert steps
 4. [Assign pfcg roles](/inst/step-4.md)
 
 As-is plugin, Basis expert steps<br>
-1. [Install As-is on Central system](/inst/asis/cen.md)
-2. [Install As-is on each Managed system](/inst/asis/man.md)
+1. [Install As-is on Central system](http://fioritracker.org/2020FPS01/#/inst/asis/cen.md)
+2. [Install As-is on each Managed system](http://fioritracker.org/2020FPS01/#/inst/asis/man.md)
 
