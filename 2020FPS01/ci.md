@@ -18,7 +18,7 @@ None.
 
 ### Dependencies
 Requires:  
-[As-is](asis.md)
+[As-is API](http://help.fioritracker.org/2020FPS01/#/asis)
 
 ### Technical information
 [Details](/tech/ci.md)
