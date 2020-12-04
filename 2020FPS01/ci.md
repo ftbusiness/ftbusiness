@@ -1,6 +1,6 @@
 # Catalog Import
 
-Tool to import the list of catalogs into as To-be relation in [Fiori Tracker Core](/ft-core.md)
+Tool to import the list of catalogs into as To-be relation in [Fiori Tracker Core](http://help.fioritracker.org/2020FPS01/#/ft-core.md)
 
 ![](res/ci.png)
 
@@ -11,7 +11,7 @@ Located on Central system
 None.
 
 ### Other applications that might use the product
-[Fiori Tracker Core](/ft-core.md)
+[Fiori Tracker Core](http://help.fioritracker.org/2020FPS01/#/ft-core.md)
 
 ### Installation 
 [Details](/inst/ci.md)
