@@ -5,7 +5,7 @@ The tool lets you list the catalogs from all your systems and import them to [Fi
 ![](res/ci.png)
 
 ### Installation 
-[Details](/inst/ci.md)
+[Details](ci/FPS01/inst.md)
 
 ### Dependencies
 Requires:  
@@ -21,6 +21,6 @@ None.
 [Fiori Tracker Core](https://help.fioritracker.org/2020/#/core/SPS02/main)
 
 ### Technical information
-[Details](/tech/ci.md)
+[Details](ci/FPS01/tech.md)
 
 
