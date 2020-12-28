@@ -1,6 +1,6 @@
 # Catalog Import
 
-The tool lets you list the catalogs from all your systems and import them to [Fiori Tracker Core](http://help.fioritracker.org/2020FPS01/#/ft-core.md) for documentation purposes (stored as so-called "To-be" records). Catalog Import uses free ["As-is" API]((http://help.fioritracker.org/2020FPS01/#/asis).
+The tool lets you list the catalogs from all your systems and import them to [Fiori Tracker Core](https://help.fioritracker.org/2020/#/core/SPS02/main) for documentation purposes (stored as so-called "To-be" records). Catalog Import uses free ["As-is" API](https://help.fioritracker.org/2020/#/asis/FPS01/main).
 
 ![](res/ci.png)
 
@@ -9,7 +9,7 @@ The tool lets you list the catalogs from all your systems and import them to [Fi
 
 ### Dependencies
 Requires:  
-[As-is API](http://help.fioritracker.org/2020FPS01/#/asis) (free)
+[As-is API](https://help.fioritracker.org/2020/#/asis/FPS01/main) (free)
 
 ### Location
 Located on Central system
@@ -18,7 +18,7 @@ Located on Central system
 None.
 
 ### Other applications that might use the product
-[Fiori Tracker Core](http://help.fioritracker.org/2020FPS01/#/ft-core.md)
+[Fiori Tracker Core](https://help.fioritracker.org/2020/#/core/SPS02/main)
 
 ### Technical information
 [Details](/tech/ci.md)
