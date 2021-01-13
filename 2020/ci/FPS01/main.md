@@ -1,5 +1,3 @@
-[main](/abc?test ":ignore title")
-
 # Catalog Import
 
 The tool lets you list the catalogs from all your systems and import them to [Fiori Tracker Core](https://help.fioritracker.org/2020/#/core/SPS02/main) for documentation purposes (stored as so-called "To-be" records). Catalog Import uses free ["As-is" API](https://help.fioritracker.org/2020/#/asis/FPS01/main).

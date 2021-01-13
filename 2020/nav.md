@@ -1,4 +1,4 @@
-- [Fiori Tracker Business](ftbus.md)
- - [Catalog Import](ci/FPS01/main.md) 
-- [Installation](inst.md)
-- [FAQ](faq.md)
+- [Fiori Tracker Business](/ftbus.md?ftbus ":ignore title")
+ - [Catalog Import](ci/FPS01/main.md?ci ":ignore title") 
+- [Installation](inst.md?inst ":ignore title")
+- [FAQ](faq.md?faq ":ignore title")
