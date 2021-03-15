@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#catalog-import" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Skip to content
         </a>
       
@@ -167,84 +167,11 @@
       
 
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Catalog Import
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-    
-    <a href="./" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../SPS02/main/" class="md-nav__link">
       Catalog Import
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dependencies" class="md-nav__link">
-    Dependencies
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#location" class="md-nav__link">
-    Location
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#available-extensions" class="md-nav__link">
-    Available extensions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#other-applications-that-might-use-the-product" class="md-nav__link">
-    Other applications that might use the product
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technical-information" class="md-nav__link">
-    Technical information
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -279,56 +206,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dependencies" class="md-nav__link">
-    Dependencies
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#location" class="md-nav__link">
-    Location
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#available-extensions" class="md-nav__link">
-    Available extensions
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#other-applications-that-might-use-the-product" class="md-nav__link">
-    Other applications that might use the product
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#technical-information" class="md-nav__link">
-    Technical information
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -340,19 +217,23 @@
               
                 
                 
-                <h1 id="catalog-import">Catalog Import</h1>
-<p>The tool lets you list the catalogs from all your systems and import them to <a href="prod.ci.compatibleCoreLink">Fiori Tracker Core</a> for documentation purposes (stored as so-called "To-be" records). Catalog Import uses free <a href="ci.compatibleAsisMainLink">"As-is" API</a>.</p>
-<p><img alt="" src="../res/ci.png" /></p>
-<h2 id="installation"><a href="../inst/">Installation</a></h2>
-<h2 id="dependencies">Dependencies</h2>
-<p>Requires: <a href="https://help.fioritracker.org/V2020/asis/FPS01/main/">As-is API</a> (free)</p>
-<h2 id="location">Location</h2>
-<p>Located on Central system</p>
-<h2 id="available-extensions">Available extensions</h2>
-<p>None.</p>
-<h2 id="other-applications-that-might-use-the-product">Other applications that might use the product</h2>
-<p><a href="https://help.fioritracker.org/V2020/core/SPS02/main/">Fiori Tracker Core</a></p>
-<h2 id="technical-information"><a href="../tech/">Technical information</a></h2>
+                <h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><strong>TemplateSyntaxError</strong>: expected token 'end of print statement', got 'FPS01'</p>
+<pre><code>Traceback (most recent call last):
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\mkdocs_macros\plugin.py&quot;, line 339, in render
+    md_template = self.env.from_string(markdown)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 941, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 638, in compile
+    self.handle_exception(source=source_hint)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py&quot;, line 28, in reraise
+    raise value.with_traceback(tb)
+  File &quot;&lt;unknown&gt;&quot;, line 10, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'FPS01'
+
+</code></pre>
                 
               
               
@@ -367,27 +248,6 @@
       
         
 <footer class="md-footer">
-  
-    <div class="md-footer-nav">
-      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
-        
-        
-          <a href="../../../inst/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-footer-nav__title">
-              <div class="md-ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Installation
-              </div>
-            </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

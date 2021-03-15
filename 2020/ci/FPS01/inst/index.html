@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#catalog-import-installation" class="md-skip">
+        <a href="#macro-rendering-error" class="md-skip">
           Skip to content
         </a>
       
@@ -169,7 +169,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../main/" class="md-nav__link">
+    <a href="../../SPS02/main/" class="md-nav__link">
       Catalog Import
     </a>
   </li>
@@ -217,20 +217,23 @@
               
                 
                 
-                <h1 id="catalog-import-installation">Catalog Import - Installation</h1>
-<p>General Basis expert steps</p>
-<ol>
-<li><a href="../../../inst/step-1">Obtain the transport files from Nype's representative</a> - files for Release <code>2020FPS01</code> </li>
-<li><a href="../../../inst/step-2">Activate Frontend ICF nodes</a> for node <code>zftcatimport</code></li>
-<li><a href="../../../inst/step-3">Enable backend odata service</a> for service <code>ZNYPECICEN_SRV</code></li>
-<li><a href="../../../inst/step-4">Assign pfcg roles</a> for role <code>ZNYPE_CI</code></li>
-</ol>
-<p>As-is plugin, Basis expert steps</p>
-<ol>
-<li><a href="https://help.fioritracker.org/V2020/asis/FPS01/inst-cen/">Install As-is on Central system</a></li>
-<li><a href="https://help.fioritracker.org/V2020/asis/FPS01/inst-man/">Install As-is on each Managed system</a> </li>
-</ol>
-<p>If you are installing Catalog Import for the first time please check <a href="../eval-dep/">Evaluation deployment</a> for details on installing Catalog Import to one system (f.e. Sandbox).</p>
+                <h1 id="macro-rendering-error"><em>Macro Rendering Error</em></h1>
+<p><strong>TemplateSyntaxError</strong>: expected token 'end of print statement', got 'FPS01'</p>
+<pre><code>Traceback (most recent call last):
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\mkdocs_macros\plugin.py&quot;, line 339, in render
+    md_template = self.env.from_string(markdown)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 941, in from_string
+    return cls.from_code(self, self.compile(source), globals, None)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 638, in compile
+    self.handle_exception(source=source_hint)
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\environment.py&quot;, line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File &quot;c:\users\gm\appdata\local\programs\python\python39\lib\site-packages\jinja2\_compat.py&quot;, line 28, in reraise
+    raise value.with_traceback(tb)
+  File &quot;&lt;unknown&gt;&quot;, line 12, in template
+jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got 'FPS01'
+
+</code></pre>
                 
               
               
